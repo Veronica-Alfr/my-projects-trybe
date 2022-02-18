@@ -14,4 +14,4 @@ Title.propTypes = {
 
 export default Title;
 
-// Ajuda de Nailton Júnior
+// Ajuda de Nailton Júnior em props

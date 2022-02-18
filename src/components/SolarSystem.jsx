@@ -18,4 +18,6 @@ class SolarSystem extends Component {
   }
 }
 
+// Ajuda de Gabriel Melo no funcionamento de props
+
 export default SolarSystem;
