@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-const { headline } = this.props;
-
 class Title extends Component {
   render() {
+    const { headline } = this.props;
     return <h2>{headline}</h2>;
   }
 }
 
-Title.prototypes = {
+Title.propTypes = {
   headline: PropTypes.string.isRequired,
 };
 
