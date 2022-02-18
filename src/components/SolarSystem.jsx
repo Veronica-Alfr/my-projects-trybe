@@ -3,8 +3,10 @@ import Title from './Title';
 
 class SolarSystem extends Component {
   render() {
-    <Title />;
-    return <div data-testid="solar-system" />;
+    return (
+      <div data-testid="solar-system">
+        <Title headline="Planetas" />
+      </div>);
   }
 }
 
