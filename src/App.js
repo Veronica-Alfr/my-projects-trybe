@@ -6,7 +6,7 @@ import SolarSystem from './components/SolarSystem';
 class App extends React.Component {
   render() {
     return (
-      <main>
+      <main className="system-container">
         <Header />
         <SolarSystem />
         <Missions />
